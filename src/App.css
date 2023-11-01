@@ -72,6 +72,12 @@ p {
 .hovered {
   background-color: salmon;
 }
+.tooltip-hide {
+  visibility: hidden;
+}
+.tooltip-show {
+  visibility: visible;
+}
 @media screen and (max-width: 480px) {
   .graph-data {
     width: 33px;

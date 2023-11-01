@@ -43,6 +43,7 @@ function App() {
           <p>Spending - Last 7 Days</p>
           <div className="flex-container graph">
             <div>
+              <div className={hoveredMonday ? "tooltip-show" : "tooltip-hide"}>$17.45</div>
               <div 
               className={hoveredMonday ? "hovered graph-data" : "graph-data"}
               onMouseEnter={toggleHoverMonday}
@@ -51,6 +52,7 @@ function App() {
               <p className="day">mon</p>
             </div>
             <div>
+              <div className={hoveredTuesday ? "tooltip-show" : "tooltip-hide"}>$34.91</div>
               <div 
               className={hoveredTuesday ? "hovered graph-data" : "graph-data"}
               onMouseEnter={toggleHoverTuesday}
@@ -59,6 +61,7 @@ function App() {
               <p className="day">tue</p>
             </div>
             <div>
+              <div className={hoveredWednesday ? "tooltip-show" : "tooltip-hide"}>$52.36</div>
               <div 
               className={hoveredWednesday ? "hovered graph-data" : "graph-data"}
               onMouseEnter={toggleHoverWednesday}
@@ -67,6 +70,7 @@ function App() {
               <p className="day">wed</p>
             </div>
             <div>
+              <div className={hoveredThursday ? "tooltip-show" : "tooltip-hide"}>$31.07</div>
               <div 
               className={hoveredThursday ? "hovered graph-data" : "graph-data"}
               onMouseEnter={toggleHoverThursday}
@@ -75,6 +79,7 @@ function App() {
               <p className="day">thu</p>
             </div>
             <div>
+              <div className={hoveredFriday ? "tooltip-show" : "tooltip-hide"}>$23.39</div>
               <div 
               className={hoveredFriday ? "hovered graph-data" : "graph-data"}
               onMouseEnter={toggleHoverFriday}
@@ -83,6 +88,7 @@ function App() {
               <p className="day">fri</p>
             </div>
             <div>
+              <div className={hoveredSaturday ? "tooltip-show" : "tooltip-hide"}>$43.28</div>
               <div 
               className={hoveredSaturday ? "hovered graph-data" : "graph-data"}
               onMouseEnter={toggleHoverSaturday}
@@ -91,6 +97,7 @@ function App() {
               <p className="day">sat</p>
             </div>
             <div>
+              <div className={hoveredSunday ? "tooltip-show" : "tooltip-hide"}>$25.48</div>
               <div 
               className={hoveredSunday ? "hovered graph-data" : "graph-data"}
               onMouseEnter={toggleHoverSunday}
